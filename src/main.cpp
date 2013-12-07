@@ -831,7 +831,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 	//if(nHeight<1440) return 500*COIN;			//720000 coins in first day
 	//else if(nHeight<2880) return 100*COIN;		//144000 coins in second day
 	//else if(nHeight<4320) return 50*COIN;		//72000 coins in third day
-    int64 nSubsidy = 1000 * COIN;					//1000 coins per block
+    int64 nSubsidy = 250 * COIN;					//1000 coins per block
 
 	//10 million total coins
 	//if(nHeight>4532000) nSubsidy=0;
@@ -843,7 +843,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 }
 
 static int64 nTargetTimespan = 6 * 60 * 60; // tr011coin: 0.25 days
-static int64 nTargetSpacing = 30; // tr011coin: 30 second blocks
+static int64 nTargetSpacing = 15; // tr011coin: 15 second blocks
 static int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
