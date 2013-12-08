@@ -22,7 +22,7 @@ namespace Checkpoints
     //    timestamp before)
     // + Contains no strange transactions
     //
-    static MapCheckpoints mapCheckpoints =
+    static MapCheckpoints mapCheckpoints;
 	boost::assign::map_list_of
         (     0, uint256("0xd89d766898082012437c40662662d286de3202a99296fb91bb73bf4c9ca54d18"))
 	;
