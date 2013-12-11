@@ -277,7 +277,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 26, // Tr011Coins are brought to you by the letter T!
+        PUBKEY_ADDRESS = 66, // Tr011Coins are brought to you by the letter T!
         SCRIPT_ADDRESS = 5,
         PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,
